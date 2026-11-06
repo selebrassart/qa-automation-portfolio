@@ -1,0 +1,29 @@
+
+{
+  "name": "qa-automation-portfolio",
+  "version": "1.0.0",
+  "description": "QA Automation portfolio using Playwright, TypeScript, E2E and API testing.",
+ "scripts": {
+  "test": "playwright test",
+  "test:e2e": "playwright test tests/e2e",
+  "test:api": "playwright test --project=api",
+  "test:chromium": "playwright test --project=chromium",
+  "test:ui": "playwright test --ui",
+  "report": "playwright show-report"
+},
+  "keywords": [
+    "qa",
+    "test-automation",
+    "playwright",
+    "typescript",
+    "e2e-testing",
+    "api-testing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.65.0",
+    "@types/node": "^26.6.6"
+  }
+}
